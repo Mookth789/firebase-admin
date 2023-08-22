@@ -4,7 +4,7 @@ import App from './App'
 import './index.css'
 import Login from './components/Login.jsx'
 import Register from './components/Register'
-import { UserAuthContextProvider } from './context/UserAuthContext'
+import { UserAuthContextProvider } from './context/UserAuthContext.jsx'
 import { 
   createBrowserRouter,
   RouterProvider,
