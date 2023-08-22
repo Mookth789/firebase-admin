@@ -3,7 +3,7 @@ import { getAnalytics } from "firebase/analytics";
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDWmaW90aVilPbyZOhm8IvakgEzDBn24tw",
+  apiKey: "",
   authDomain: "fir-admin-387f1.firebaseapp.com",
   projectId: "fir-admin-387f1",
   storageBucket: "fir-admin-387f1.appspot.com",
