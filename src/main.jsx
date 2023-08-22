@@ -1,14 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import App from './App'
 import './index.css'
 import Login from './components/Login.jsx'
-import Register from './components/Register.jsx'
-import { UserAuthContextProvider } from './context/UserAuthContext.jsx'
+import Register from './components/Register'
+import { UserAuthContextProvider } from './context/UserAuthContext'
 import { 
   createBrowserRouter,
-  Link,
-  RouterProvider, 
+  RouterProvider,
 } from "react-router-dom";
 
 
